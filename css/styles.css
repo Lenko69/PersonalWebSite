@@ -1,0 +1,54 @@
+.top-container{
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+.name{
+  margin-top: 0;
+}
+
+#bottom_cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+#top_cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+body{
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather",serif;
+}
+h1{
+  font-family: 'Sacramento',cursive;
+  font-size: 40px;
+}
+h2{
+  font-family: "Montserrat", sans-serif;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+}
+.Leo{
+  padding-top: 20px;
+  width: 25%;
+  height: 25%;
+}
+.camera{
+  width: 13%;
+  height: 13%;
+}
+.Cold-Tolerance{
+  width: 13%;
+  height: 13%;
+}
+.skillList{
+  width: 50%;
+  height: auto;
+  margin: 0 auto 0 auto;
+}
