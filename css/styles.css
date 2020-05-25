@@ -1,8 +1,4 @@
-* {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
 
-}
 .top-container{
   background-color: #E4F9F5;
   position: relative;
@@ -11,7 +7,9 @@
 .name{
   margin-top: 0;
 }
-
+.description{
+  font-size: 2.5rem;
+}
 #bottom_cloud{
   position: absolute;
   left: 300px;
@@ -30,8 +28,9 @@ body{
   font-family: "Merriweather",serif;
 }
 h1{
+  font-size: 592.5%;
   font-family: 'Sacramento',cursive;
-  font-size: 40px;
+  margin: 50px auto 0 auto
 }
 h2{
   font-family: "Montserrat", sans-serif;
@@ -39,31 +38,64 @@ h2{
 h3{
   font-family: 'Montserrat', sans-serif;
 }
+ p{
+   font-family: "Montserrat", sans-serif;
+ }
 .Leo{
   padding-top: 20px;
   width: 25%;
   height: 25%;
 }
-.skill-pics{
-  max-width: 300px;
-  width: auto;
-  height: 300px;
+.skill-pics1{
+  width: 25%;
+  float:left;
+  padding-right: 30px;
+
 }
-.skillList{
-  width: 50%;
-  height: auto;
-  margin: 0 auto 0 auto;
+.skill-pics2{
+  width: 25%;
+  float:right;
+  padding-left: 30px;
 }
+
 .skills {
   display: inline;
 }
 .skill-row{
-  display: inline-block;
-  height: 600px;
-  width: 400px;
-  top:0px;
-  vertical-align: text-top;
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
 }
+
 .bio{
-  padding-bottom: 20px;
+  padding-bottom: 40px;
+}
+.name{
+  padding-top: 40px;
+  color: #66BFBF;
+}
+h2{
+
+  color: #66BFBF;
+}
+a{
+  color:#11999E;
+}
+h3{
+  color:#11999E;
+}
+
+.description{
+  font-weight: normal;
+}
+.mySkills{
+  margin-bottom: 10px;
+}
+.skills.coding{
+  margin-top: 0;
+}
+
+.line{
+  clear: right;
 }
