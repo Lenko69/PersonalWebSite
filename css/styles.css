@@ -155,8 +155,8 @@ hr{
   margin-bottom: 200px;
 }
 .myButton:hover {
-	background:linear-gradient(to bottom, #48a4b5 5%, #48a4b5 100%);
-	background-color:#48a4b5;
+	background:linear-gradient(to bottom, #87D6DE 5%, #87D6DE 100%);
+	background-color:#87D6DE;
 }
 .myButton:active {
 	position:relative;
