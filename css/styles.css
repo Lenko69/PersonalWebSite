@@ -26,6 +26,7 @@ body{
   margin: 0;
   text-align: center;
   font-family: "Merriweather",serif;
+  color: #40514E
 }
 h1{
   font-size: 592.5%;
@@ -88,6 +89,9 @@ a{
   display: inline;
   padding-right: 30px;
   margin: 0 auto 0 auto;
+}
+a:hover{
+  color: #EAF6F6
 }
 h3{
   color:#11999F;
