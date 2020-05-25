@@ -1,3 +1,8 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+
+}
 .top-container{
   background-color: #E4F9F5;
   position: relative;
@@ -39,16 +44,23 @@ h3{
   width: 25%;
   height: 25%;
 }
-.camera{
-  width: 13%;
-  height: 13%;
-}
-.Cold-Tolerance{
-  width: 13%;
-  height: 13%;
+.skill-pics{
+  max-width: 300px;
+  width: auto;
+  height: 300px;
 }
 .skillList{
   width: 50%;
   height: auto;
   margin: 0 auto 0 auto;
+}
+.skills {
+  display: inline;
+}
+.skill-row{
+  display: inline-block;
+  height: 600px;
+  width: 49%;
+  top:0px;
+  vertical-align: text-top;
 }
